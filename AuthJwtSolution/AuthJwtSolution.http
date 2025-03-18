@@ -1,0 +1,11 @@
+@AuthJwtSolution_HostAddress = http://localhost:5015
+
+GET {{AuthJwtSolution_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{AuthJwtSolution_HostAddress}}/todos/1
+Accept: application/json
+
+###
